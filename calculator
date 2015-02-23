@@ -1,0 +1,18 @@
+a = input()
+a = int(a)
+
+b = input()
+b = int(b)
+oper = input()
+
+if oper =='*':
+    c = a * b
+elif oper == '/':
+    c = a / b
+elif oper == '+':
+    c = a + b
+elif oper == '-':
+    c = a - b
+else:
+    print("We do not support that operation")
+print("Result is: %d" % c)
