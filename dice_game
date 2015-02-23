@@ -1,0 +1,20 @@
+from random import randint
+
+n=input("Enter sides:")
+n=int(n)
+
+print("Player_1 is Mariika")
+p=randint(1,n)
+print("Player_1 is Ivancho")
+q=randint(1,n)
+print('The rolls Mariika %d'% p)
+print('The rolls Ivancho %d'% q)
+
+if p>q:
+    print("Winer is Mariika")
+elif p<q:
+    print("Winer is Ivancho")
+else:
+    print("The result is equal")
+    
+
