@@ -1,0 +1,6 @@
+n=input("How old are you? ")
+n=int(n)
+if n>=21:
+    print("You are legal for disco")
+else:
+    print("You are not legal, go at home")
