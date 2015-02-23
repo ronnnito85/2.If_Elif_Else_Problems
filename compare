@@ -1,0 +1,10 @@
+a = input('Enter the number a:')
+a = int(a)
+b = input('Enter the number b:')
+b = int(b)    
+if a > b:
+    print ("The bigger number is a = %d" % a)
+elif a < b:
+    print ("The bigger number is b = %d" % b)
+elif a == b:
+    print ('The number a = %d is equal of number b = %d' % (a,b)) 
